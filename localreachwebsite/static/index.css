@@ -4,6 +4,7 @@ body {
 
 p {
     color: #2D2D2D;
+    font-family: 'Roboto';
 }
 
 .navigation-bar {
@@ -18,7 +19,7 @@ p {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 140%;
+    font-size: 200%;
     font-family: 'Roboto';
     font-weight: 400;
     height: 100%;
@@ -48,16 +49,21 @@ p {
 .central-text {
     margin-left: 3%;
     font-family: 'Roboto';
+    height:30cm;
+}
+
+#weird-img {
+    width: 10%;
 }
 
 #title {
     font-weight: 900;
-    font-size: 820%;
+    font-size: 1000%;
     margin: 0% 0%;
 }
 
 #message {
-    font-size: 150%;
+    font-size: 250%;
     line-height: 175%;
 }
 
@@ -88,5 +94,13 @@ p {
 .central-images {
     width: 75%;
     position: relative;
-    transform: translate(35%, -85%);
+    transform: translate(35%, -95%);
 }
+
+.description {
+    color: #2D2D2D;
+    font-size: 200%;
+    line-height: 175%;
+    text-align: center;
+}
+

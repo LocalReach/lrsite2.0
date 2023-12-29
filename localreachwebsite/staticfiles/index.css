@@ -2,6 +2,11 @@ body {
     background-color: #D8D8D8;
 }
 
+p {
+    color: #2D2D2D;
+    font-family: 'Roboto';
+}
+
 .navigation-bar {
     padding: 1% 0%;
     display: flex;
@@ -16,11 +21,13 @@ body {
     text-decoration: none;
     font-size: 140%;
     font-family: 'Roboto';
-    font-weight:700;
+    font-weight: 400;
+    height: 100%;
 }
 
-.navigation-bar a.active, .navigation-bar a:hover {
+.navigation-bar a:hover {
     color: #4C3EED;
+    cursor: pointer;
 }
 
 #contact-us {
@@ -31,7 +38,7 @@ body {
     border-color: transparent;
     border-radius: 12px;
     position: relative;
-    transform: translate(8%, 5%)
+    transform: translate(8%, 5%);
 }
 
 #contact-us:hover {
@@ -40,13 +47,53 @@ body {
 }
 
 .central-text {
-    padding: 0% 3%;
-    position: relative;
-    transform: translate(0%, -10%)
+    margin-left: 3%;
+    font-family: 'Roboto';
 }
 
 #title {
-    font-family: 'Roboto';
-    font-weight: 700;
-    font-size: 500%;
+    font-weight: 900;
+    font-size: 820%;
+    margin: 0% 0%;
 }
+
+#message {
+    font-size: 150%;
+    line-height: 175%;
+}
+
+#get-started {
+    font-size: 150%;
+    background-color: #4C3EED;
+    border-color: transparent;
+    border-radius: 12px;
+    color: white;
+    padding: 1.5% 3%;
+    margin-top: 5%;
+}
+
+#get-started:hover {
+    background-color: #8379f7;
+    cursor: pointer;
+}
+
+#TV {
+    transform: translate(70%, 25%);
+    width: 45%;
+}
+
+#bar-pic {
+    width: 52%;
+}
+
+.central-images {
+    width: 75%;
+    position: relative;
+    transform: translate(35%, -85%);
+}
+
+.description {
+    color: #2D2D2D;
+    font-size: 150%;
+}
+
