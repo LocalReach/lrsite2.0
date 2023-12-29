@@ -50,6 +50,7 @@ p {
     margin-left: 3%;
     font-family: 'Roboto';
     height:30cm;
+    transform: translateY(-110%);
 }
 
 #weird-img {
@@ -68,12 +69,12 @@ p {
 }
 
 #get-started {
-    font-size: 150%;
+    font-size: 200%;
     background-color: #4C3EED;
     border-color: transparent;
-    border-radius: 12px;
+    border-radius: 15px;
     color: white;
-    padding: 1.5% 3%;
+    padding: 2% 4%;
     margin-top: 5%;
 }
 
@@ -91,16 +92,23 @@ p {
     width: 52%;
 }
 
+#wave-thing {
+    width: 100%;
+    transform: translateY(33%);
+    height: 80%;
+}
+
 .central-images {
     width: 75%;
     position: relative;
     transform: translate(35%, -95%);
 }
 
-.description {
+#description {
     color: #2D2D2D;
     font-size: 200%;
     line-height: 175%;
     text-align: center;
+    transform: translateY(-200%);
 }
 
