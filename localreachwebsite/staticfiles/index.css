@@ -1,3 +1,7 @@
+body {
+    background-color: #D8D8D8;
+}
+
 .navigation-bar {
     padding: 1% 0%;
     display: flex;
@@ -11,7 +15,8 @@
     padding: 14px 16px;
     text-decoration: none;
     font-size: 140%;
-    font-family: Roboto;
+    font-family: 'Roboto';
+    font-weight:700;
 }
 
 .navigation-bar a.active, .navigation-bar a:hover {
@@ -32,4 +37,16 @@
 #contact-us:hover {
     background-color: #8379f7;
     cursor: pointer;
+}
+
+.central-text {
+    padding: 0% 3%;
+    position: relative;
+    transform: translate(0%, -10%)
+}
+
+#title {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 500%;
 }
