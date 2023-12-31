@@ -1,87 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Home</title>
 
-    {% load static %}
+        {% load static %}
 
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap');
-    </style>
-    <link rel="stylesheet" href="../static/index.css">
-</head>
-<body>
-    <div class="navigation-bar">
-        <a href="#how-it-works">How It Works</a>
-        <a href="#about">About</a>
-        <a href="#work">Work</a>
-        <a href="#pricing">Pricing</a>
-        <a href="#blog">Blog</a>
-        <button id="contact-us" type="button" href="#contact"><b>CONTACT US</b></button>
-    </div>
-
-    <img id="wave-thing" src="../static/images/wavy_thing.png">
-
-    <div class="central-text">
-        <img id="weird-img" src="../static/images/fad_modrandom.png">
-
-        <p id="title"><span style="color:#4C3EED;">Local</span>Reach.</p>
-        <p id="message">Democratizing TV Advertising, Challenging<br>
-            Corporate Dominance. <span style="color:#4C3EED">Empower</span> your reach.</p>
-
-        <button id="get-started" type="button"><b>GET STARTED</b></button>
-        
-        <div class="central-images">
-            <img id="TV" src="../static/images/TV.png">
-            <img id="bar-pic" src="../static/images/Empower Your Reach.png">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap');
+        </style>
+        <link rel="stylesheet" href="../static/index.css"/>
+    </head>
+    <body>
+        <div class="navigation-bar">
+            <a href="#how-it-works">How It Works</a>
+            <a href="#about">About</a>
+            <a href="#work">Work</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#blog">Blog</a>
+            <button id="contact-us" type="button" href="#contact">
+                <b>CONTACT US</b>
+            </button>
         </div>
 
-        <p id="description">Local Reach is a revolutionary advertising platform, by harnessing the power of our AI targeting system, we<br>
-            ensure that your ads are seen by the right people, in the right place, at the right time. We strive to make<br>
-            effective targeted advertising accessible and affordable for all businesses, big or small. </p>
-    </div>
+        <img id="wave-thing" src="../static/images/wavy_thing.png"/>
 
-    <div class="democratizing-section">
-        
-        <div class="outer-table" style="background-color: #e6e6e6;">
-            <table class="democratizing-table">
-                <tr>
-                    <td style="width: 30%; padding-left: 10%; padding-top: 5%;"><img src="../static/images/TV Icon.png"></td>
-                    <td style="font-size: 300%; font-weight: 500; width: 90%; padding-top: 5%;">Democratizing TV</td>
-                </tr>
-                <tr>
-                    <td style="width: 30%; padding-left: 10%;"></td>
-                    <td style="font-size: 150%;">Democratizing TV Advertising, Challenging<br>
-                        Corporate Dominance. <span>Empower</span> your reach.</td>
-                </tr>
-                <tr>
-                    <td style="width: 30%; padding-left: 10%;"><img src="../static/images/TV Icon.png"></td>
-                    <td style="font-size: 300%; font-weight: 500; width: 90%;">Democratizing TV</td>
-                </tr>
-                <tr>
-                    <td style="width: 30%; padding-left: 10%;"></td>
-                    <td style="font-size: 150%;">Democratizing TV Advertising, Challenging<br>
-                        Corporate Dominance. <span>Empower</span> your reach.</td>
-                </tr>
-                <tr>
-                    <td style="width: 30%; padding-left: 10%;"><img src="../static/images/TV Icon.png"></td>
-                    <td style="font-size: 300%; font-weight: 500; width: 90%;">Democratizing TV</td>
-                </tr>
-                <tr>
-                    <td style="width: 30%; padding-left: 10%; padding-bottom: 5%;"></td>
-                    <td style="font-size: 150%; padding-bottom: 5%;">Democratizing TV Advertising, Challenging<br>
-                        Corporate Dominance. <span>Empower</span> your reach.</td>
-                </tr>
-            </table>
+        <div class="central-text">
+            <img id="weird-img" src="../static/images/fad_modrandom.png"/>
+
+            <p id="title"><span style="color: #4c3eed">Local</span>Reach.</p>
+            <p id="message">
+                Democratizing TV Advertising, Challenging<br>
+                Corporate Dominance.<span style="color: #4c3eed">Empower</span> your reach.
+            </p>
+
+            <button id="get-started" type="button"><b>GET STARTED</b></button>
+
+            <div class="central-images">
+                <img id="TV" src="../static/images/TV.png"/>
+                <img id="bar-pic" src="../static/images/Empower Your Reach.png"/>
+            </div>
+
+            <p id="description">
+                Local Reach is a revolutionary advertising platform, by
+                harnessing the power of our AI targeting system, we<br>
+                ensure that your ads are seen by the right people, in the right
+                place, at the right time. We strive to make<br>
+                effective targeted advertising accessible and affordable for all
+                businesses, big or small.
+            </p>
         </div>
 
-        <div class="everybody-wins-section">
-            <p id="everybody-wins">Everybody<br><span style="color: #4C3EED">Wins!</span> <img src="../static/images/Arrow.png" style="width: 18%;"></p>
+        <div class="democratizing-section">
+            <div class="outer-table" style="background-color: #e6e6e6">
+                <table class="democratizing-table">
+                    <tr>
+                        <td
+                            style="
+                                width: 30%;
+                                padding-left: 10%;
+                                padding-top: 5%;
+                            ">
+                            <img src="../static/images/TV Icon.png"/>
+                        </td>
+                        <td
+                            style="
+                                font-size: 300%;
+                                font-weight: 500;
+                                width: 90%;
+                                padding-top: 5%;
+                            ">
+                            Democratizing TV
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 30%; padding-left: 10%"></td>
+                        <td style="font-size: 150%">
+                            Democratizing TV Advertising, Challenging<br>
+                            Corporate Dominance. <span>Empower</span> your
+                            reach.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 30%; padding-left: 10%">
+                            <img src="../static/images/TV Icon.png"/>
+                        </td>
+                        <td
+                            style="
+                                font-size: 300%;
+                                font-weight: 500;
+                                width: 90%;
+                            ">
+                            Democratizing TV
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 30%; padding-left: 10%"></td>
+                        <td style="font-size: 150%">
+                            Democratizing TV Advertising, Challenging<br>
+                            Corporate Dominance. <span>Empower</span> your
+                            reach.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 30%; padding-left: 10%">
+                            <img src="../static/images/TV Icon.png"/>
+                        </td>
+                        <td
+                            style="
+                                font-size: 300%;
+                                font-weight: 500;
+                                width: 90%;
+                            ">
+                            Democratizing TV
+                        </td>
+                    </tr>
+                    <tr>
+                        <td
+                            style="
+                                width: 30%;
+                                padding-left: 10%;
+                                padding-bottom: 5%;
+                            ">
+                        </td>
+                        <td style="font-size: 150%; padding-bottom: 5%">
+                            Democratizing TV Advertising, Challenging<br>
+                            Corporate Dominance. <span>Empower</span> your
+                            reach.
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="everybody-wins-section">
+                <p id="everybody-wins">
+                    Everybody<br><span style="color: #4c3eed">Wins!</span>
+                    <img src="../static/images/Arrow.png" style="width: 18%"/>
+                </p>
+
+                <button type="button"><b>GET STARTED</b></button>
+            </div>
+        </div>
+
+        <div class="maximization-section">
+            <p><span id="minimize-your-costs"><mark style="background-color: #D1CEFB">&nbspMinimize Your Costs&nbsp</mark></span><br>
+                <span id="maximize-your-impact">Maximize<br>
+                    Your Impact.</span></p>
+
+            <p id="maximization-paragraph">By hosting ads from local businesses on their TV screens,<br>
+                restaurants can generate an additional income stream,<br>
+                earning 30% of the revenue from these ads. Plus, with<br>
+                Local Reach, your restaurant becomes part of a<br>
+                supportive local business network, enhancing your<br>
+                community connection and reputation.</p>
+
+            <img id="morph-lines" src="../static/images/3D Morph Lines.png">
+            <img id="bar-watching-tv" src="../static/images/Bar Watching TV.png">
             
-            <button type="button"><b>GET STARTED</b></button>
         </div>
-    </div>
-</body>
+    </body>
 </html>
