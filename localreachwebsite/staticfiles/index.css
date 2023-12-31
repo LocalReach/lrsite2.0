@@ -17,7 +17,7 @@ p {
     color: black;
     float: left;
     text-align: center;
-    padding: 14px 16px;
+    padding: 1% 1%;
     text-decoration: none;
     font-size: 150%;
     font-family: 'Roboto';
@@ -30,7 +30,7 @@ p {
     cursor: pointer;
 }
 
-#contact-us {
+#contact-us-nav {
     background-color: #4C3EED;
     color: white;
     font-size: 120%;
@@ -64,7 +64,7 @@ p {
     margin: 0% 0%;
 }
 
-#message {
+#democratizing-message {
     font-size: 250%;
     line-height: 175%;
 }
@@ -75,7 +75,7 @@ p {
     border-color: transparent;
     border-radius: 15px;
     color: white;
-    padding: 2% 4%;
+    padding: 1.5% 3%;
     margin-top: 5%;
 }
 
@@ -139,6 +139,7 @@ p {
     border-radius: 50px;
     overflow: hidden;
     position: relative;
+    box-shadow: 0 0 5px 5px #8379f7;
 }
 
 .democratizing-table span {
@@ -158,7 +159,7 @@ p {
 }
 
 .everybody-wins-section button {
-    font-size: 150%;
+    font-size: 175%;
     background-color: #4C3EED;
     border-color: transparent;
     border-radius: 15px;
@@ -171,4 +172,159 @@ p {
 .everybody-wins-section button:hover {
     background-color: #8379f7;
     cursor: pointer;
+}
+
+.maximization-section {
+    font-family: 'Roboto';
+    background-color: #4C3EED;
+    height: 29cm;
+    transform: translateY(-20%);
+}
+
+.maximization-section mark {
+    color: #2D2D2D;
+    font-weight: 500;
+    font-size: 450%;
+}
+
+#maximize-your-impact  {
+    color: #E6E6E6;
+    font-weight: 900;    
+    font-size: 800%;
+    line-height: 125%;
+}
+
+.maximization-section p {
+    padding-left: 3%;
+    padding-top: 7%;
+}
+
+#maximization-paragraph {
+    color: white;
+    line-height: 150%;
+    font-size: 175%;
+    padding-top: 4%;
+}
+
+#bar-watching-tv {
+    transform: translate(170%, -215%);
+}
+
+#morph-lines {
+    width: 80%;
+    transform: translate(30%, -70%);
+}
+
+.about-us {
+    text-align: center;
+}
+
+#about-us-title {
+    font-weight: 900;
+    font-size: 800%;
+    margin-bottom: 5%;
+}
+
+#about-us-msg {
+    font-size: 160%;
+    line-height: 150%;
+}
+
+.about-us-table {
+    font-family: 'Roboto';
+    font-size: 150%;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10%;
+}
+
+.about-us-table td {
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+}
+
+.more-info {
+    margin-left: 5%;
+}
+
+#want-more-info {
+    font-weight: 900;
+    font-size: 800%;
+    margin-bottom: 2%;
+}
+
+#contact-info {
+    font-size: 250%;
+    line-height: 175%;
+}
+
+#address {
+    font-size: 250%;
+}
+
+#contact-us {
+    color: white;
+    font-family: 'Roboto';
+    font-size: 350%;
+    text-align: center;
+}
+
+.contact-form label {
+    font-weight: 500;
+    font-size: 200%;
+    color: #2D2D2D;
+}
+
+input {
+    font-size: 150%;
+}
+
+input[type=text], select, textarea {
+    font-family: 'Poppins';
+    width: 100%;
+    padding: 1%;
+    box-sizing: border-box;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    resize: vertical;
+    background-color: #D8D8D8;
+    border: none;
+    border-bottom: 3px solid #2D2D2D;
+    text-align: left;
+    resize: none;
+}  
+
+input[type=submit] {
+    font-family: 'Poppins';
+    background-color: #4C3EED;
+    color: white;
+    padding: 2% 4%;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+input[type=submit]:hover {
+    background-color: #8379f7;
+}
+  
+.contact-form {
+    border-radius: 25px;
+    background-color: #D8D8D8;
+    padding-left: 5%;
+    padding-right: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    width: 35%;
+    margin-left: auto;
+    margin-right: 5%;
+    font-family: 'Poppins';
+    box-shadow: 0 0 5px 5px rgba(128, 128, 128, 0.555);
+    transform: translateY(-70%);
 }
