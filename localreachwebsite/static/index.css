@@ -9,8 +9,10 @@ p {
 
 .navigation-bar {
     padding: 1% 0%;
+    box-sizing: border-box;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .navigation-bar a {
@@ -22,7 +24,7 @@ p {
     font-size: 150%;
     font-family: 'Roboto';
     font-weight: 400;
-    height: 100%;
+    height: 37px;
 }
 
 .navigation-bar a:hover {
@@ -30,28 +32,19 @@ p {
     cursor: pointer;
 }
 
-#contact-us-nav {
+#contact-us-nav:hover {
     background-color: #4C3EED;
     color: white;
-    font-size: 120%;
-    padding: 1% 2.5%;
-    border-color: transparent;
-    border-radius: 12px;
-    position: relative;
-    transform: translateY(-6%);
-    transform: translateX(5%);
-}
-
-#contact-us:hover {
-    background-color: #8379f7;
-    cursor: pointer;
+    border-radius: 15px;
 }
 
 .central-text {
+    margin-top: 1%;
     margin-left: 3%;
     font-family: 'Roboto';
     height: 30cm;
     transform: translateY(-92%);
+    box-sizing: border-box;
 }
 
 #weird-img {
@@ -60,12 +53,12 @@ p {
 
 #title {
     font-weight: 900;
-    font-size: 1000%;
+    font-size: 8vw;
     margin: 0% 0%;
 }
 
 #democratizing-message {
-    font-size: 250%;
+    font-size: 2vw;
     line-height: 175%;
 }
 
@@ -107,7 +100,7 @@ p {
 
 #description {
     color: #2D2D2D;
-    font-size: 200%;
+    font-size: 1.5vw;
     line-height: 175%;
     text-align: center;
     transform: translateY(-200%);
@@ -337,4 +330,35 @@ input[type=submit]:hover {
 
 .socials a {
     padding: 7%;
+}
+
+@media screen and (max-width: 768px) {
+    .central-text {
+        margin-top: 100%;
+        margin-left: 2%;
+    }
+
+    #weird-img {
+        width: 20%;
+    }
+
+    #title {
+        font-size: 8vw;
+    }
+
+    #democratizing-message {
+        font-size: 3vw;
+    }
+
+    #get-started {
+        font-size: 2.5vw;
+    }
+
+    .central-images {
+        width: 95%;
+    }
+
+    #description {
+        font-size: 3vw;
+    }
 }
