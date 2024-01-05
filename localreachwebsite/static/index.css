@@ -43,7 +43,7 @@ p {
     margin-left: 3%;
     font-family: 'Roboto';
     height: 30cm;
-    transform: translateY(-92%);
+    transform: translateY(-100%);
     box-sizing: border-box;
 }
 
@@ -93,7 +93,7 @@ p {
 }
 
 .central-images {
-    width: 75%;
+    width: 70vw;
     position: relative;
     transform: translate(35%, -100%);
 }
@@ -315,9 +315,9 @@ input[type=submit]:hover {
     padding-right: 3%;
     padding-top: 3%;
     padding-bottom: 3%;
-    width: 35%;
+    width: 30%;
     margin-left: auto;
-    margin-right: 5%;
+    margin-right: 3%;
     font-family: 'Poppins';
     box-shadow: 0 0 5px 5px rgba(128, 128, 128, 0.555);
     transform: translateY(-70%);
@@ -330,35 +330,4 @@ input[type=submit]:hover {
 
 .socials a {
     padding: 7%;
-}
-
-@media screen and (max-width: 768px) {
-    .central-text {
-        margin-top: 100%;
-        margin-left: 2%;
-    }
-
-    #weird-img {
-        width: 20%;
-    }
-
-    #title {
-        font-size: 8vw;
-    }
-
-    #democratizing-message {
-        font-size: 3vw;
-    }
-
-    #get-started {
-        font-size: 2.5vw;
-    }
-
-    .central-images {
-        width: 95%;
-    }
-
-    #description {
-        font-size: 3vw;
-    }
 }
