@@ -39,11 +39,12 @@ p {
 }
 
 .central-text {
+    position: relative;
+    top: 0;
     margin-top: 1%;
     margin-left: 3%;
     font-family: 'Roboto';
-    height: 30cm;
-    transform: translateY(-100%);
+
     box-sizing: border-box;
 }
 
@@ -87,9 +88,12 @@ p {
 }
 
 #wave-thing {
+    position: absolute;
+    z-index: -1;
     width: 100%;
-    transform: translateY(39%);
+    top: 35vw;
     height: 80%;
+ 
 }
 
 .central-images {
@@ -106,11 +110,15 @@ p {
     transform: translateY(-200%);
 }
 
+
 .democratizing-section {
+    position: relative;
     font-family: 'Roboto';
     width: 40%;
-    height: 18cm;
-    transform: translate(25%, -70%);
+    height: fit-content;
+    /* height: 18cm; */
+    margin: 3%;
+   
 }
 
 .democratizing-table { 
