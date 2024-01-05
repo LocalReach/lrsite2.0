@@ -1,5 +1,7 @@
 body {
     background-color: #D8D8D8;
+    overflow-x: hidden;
+    margin: 0;
 }
 
 p {
@@ -176,10 +178,12 @@ p {
 }
 
 .maximization-section {
+    margin-left: 0;
+    height: 77vw;
     font-family: 'Roboto';
     background-color: #4C3EED;
-    height: 29cm;
-    transform: translateY(-20%);
+    min-height: 1500px;
+ 
 }
 
 .maximization-section mark {
@@ -208,7 +212,12 @@ p {
 }
 
 #bar-watching-tv {
-    transform: translate(170%, -215%);
+    z-index: 10;
+    width: 45vw;
+    position: relative;
+    float: right;
+    margin-top: 12%;
+    
 }
 
 #morph-lines {
