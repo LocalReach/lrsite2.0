@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #D8D8D8;
     overflow-x: hidden;
@@ -341,10 +345,12 @@ input[type=submit]:hover {
 }
 
 .socials {
-    width: 20%;
+    float: left;
+    width: 30vw;
     transform: translateY(-1400%);
 }
 
 .socials a {
     padding: 7%;
 }
+
