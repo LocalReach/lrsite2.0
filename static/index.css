@@ -27,10 +27,10 @@ p {
     text-align: center;
     padding: 1% 1%;
     text-decoration: none;
-    font-size: 150%;
+    font-size: 1.25vw;
     font-family: 'Roboto';
     font-weight: 400;
-    height: 37px;
+    height: 1.5vw;
 }
 
 .navigation-bar a:hover {
@@ -50,12 +50,11 @@ p {
     margin-top: 1%;
     margin-left: 3%;
     font-family: 'Roboto';
-
     box-sizing: border-box;
 }
 
 #weird-img {
-    width: 10%;
+    width: 8vw;
 }
 
 #title {
@@ -70,7 +69,7 @@ p {
 }
 
 #get-started {
-    font-size: 200%;
+    font-size: 2vw;
     background-color: #4C3EED;
     border-color: transparent;
     border-radius: 15px;
@@ -116,15 +115,12 @@ p {
     transform: translateY(-200%);
 }
 
-
 .democratizing-section {
     position: relative;
     font-family: 'Roboto';
-    width: 40%;
-    height: fit-content;
-    /* height: 18cm; */
+    width: 45%;
+    height: 60vw;
     margin: 3%;
-   
 }
 
 .democratizing-table { 
@@ -147,6 +143,9 @@ p {
     overflow: hidden;
     position: relative;
     box-shadow: 0 0 5px 5px #8379f7;
+    padding-right: 2%;
+    margin-left: 4%;
+    width: 46vw;
 }
 
 .democratizing-table span {
@@ -155,18 +154,18 @@ p {
 
 .everybody-wins-section {
     font-family: 'Roboto';
-    transform: translate(120%, -110%);
+    transform: translate(120%, -105%);
 }
 
 #everybody-wins {
-    font-size: 800%;
+    font-size: 8vw;
     font-weight: 900;
     margin-top: 0px;
     margin-bottom: 18%;
 }
 
 .everybody-wins-section button {
-    font-size: 175%;
+    font-size: 1.75vw;
     background-color: #4C3EED;
     border-color: transparent;
     border-radius: 15px;
@@ -183,45 +182,45 @@ p {
 
 .maximization-section {
     margin-left: 0;
-    height: 77vw;
+    height: 67vw;
+    width: 101vw;
     font-family: 'Roboto';
     background-color: #4C3EED;
-    min-height: 1500px;
- 
 }
 
 .maximization-section mark {
     color: #2D2D2D;
     font-weight: 500;
-    font-size: 450%;
+    font-size: 4.5vw;
 }
 
 #maximize-your-impact  {
     color: #E6E6E6;
     font-weight: 900;    
-    font-size: 800%;
+    font-size: 8vw;
     line-height: 125%;
 }
 
-.maximization-section p {
-    padding-left: 3%;
+#maximization-title {
+    padding-left: 5%;
     padding-top: 7%;
 }
 
 #maximization-paragraph {
     color: white;
     line-height: 150%;
-    font-size: 175%;
-    padding-top: 4%;
+    font-size: 1.5vw;
+    padding-top: 1%;
+    padding-left: 5%;
 }
 
 #bar-watching-tv {
     z-index: 10;
-    width: 45vw;
+    width: 40vw;
     position: relative;
     float: right;
     margin-top: 12%;
-    
+    margin-right: 2.5vw;
 }
 
 #morph-lines {
@@ -235,22 +234,26 @@ p {
 
 #about-us-title {
     font-weight: 900;
-    font-size: 800%;
+    font-size: 8vw;
     margin-bottom: 5%;
 }
 
 #about-us-msg {
-    font-size: 160%;
+    font-size: 1.6vw;
     line-height: 150%;
 }
 
 .about-us-table {
     font-family: 'Roboto';
-    font-size: 150%;
+    font-size: 1.5vw;
     width: 65%;
     margin-left: auto;
     margin-right: auto;
     padding-top: 10%;
+}
+
+.about-us-table img {
+    width: 12vw;
 }
 
 .about-us-table td {
@@ -261,34 +264,34 @@ p {
 
 .more-info {
     margin-left: 5%;
-    height: 30cm;
+    height: 70vw;
 }
 
 #want-more-info {
     font-weight: 900;
-    font-size: 800%;
+    font-size: 8vw;
     margin-bottom: 2%;
 }
 
 #contact-info {
-    font-size: 250%;
+    font-size: 2.5vw;
     line-height: 175%;
 }
 
 #address {
-    font-size: 250%;
+    font-size: 2.5vw;
 }
 
 #contact-us {
     color: white;
     font-family: 'Roboto';
-    font-size: 350%;
+    font-size: 3.5vw;
     text-align: center;
 }
 
 .contact-form label {
     font-weight: 500;
-    font-size: 200%;
+    font-size: 2vw;
     color: #2D2D2D;
 }
 
@@ -347,10 +350,18 @@ input[type=submit]:hover {
 .socials {
     float: left;
     width: 30vw;
-    transform: translateY(-1400%);
 }
 
-.socials a {
-    padding: 7%;
+.socials img {
+    width: 3vw;
+    margin: 7%;
+}
+
+.socials a:hover {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 945px) {
+
 }
 
