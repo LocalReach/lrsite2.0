@@ -55,12 +55,12 @@ p {
 }
 
 #weird-img {
-    width: 10%;
+    width: 151px;
 }
 
 #title {
     font-weight: 900;
-    font-size: 8vw;
+    font-size: 120px;
     margin: 0% 0%;
 }
 
@@ -103,7 +103,7 @@ p {
 }
 
 .central-images {
-    width: 70vw;
+    width: 1050px;
     position: relative;
     transform: translate(35%, -100%);
 }
@@ -353,4 +353,9 @@ input[type=submit]:hover {
 .socials a {
     padding: 7%;
 }
+
+@media (max-width: 1150px){
+
+}
+
 
