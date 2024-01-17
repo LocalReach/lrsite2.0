@@ -143,113 +143,17 @@ p {
 }
 
 #description {
-    margin-top:200px;
+    margin: 350px auto 200px auto;
     color: #2D2D2D;
-    font-size: 1.5vw;
+    font-size: 23px;
     line-height: 175%;
-    text-align: center;
+    text-align: justify; 
+
+
 }
 
 #get-started-1 {
     margin-top: 55px;
-}
-
-@media (max-width: 1300px){
-    #TV {
-        width:450px;
-        bottom:-50px;
-        }
-    #bar-pic {
-        width:450px;
-        right:50px;
-    }
-    #weird-img {
-        width: 125px;
-    }
-    #title {
-        font-size: 100px;
-    }
-    #democratizing-message{
-        font-size:20px;
-    }
-}
-
-@media (max-width: 1050px){
-    .central-text-images{
-        flex-direction:column;
-        margin-left:auto;
-        margin-right:auto;
-        margin-top:50px;
-    }
-    .central-text{
-        flex-direction:column;
-        display:flex;
-        justify-content:center;
-        align-items:center;
-    }
-    .central-images{
-        justify-content:center;
-        top:40px;
-    }
-    #title-weird-img{
-        display:flex;
-        justify-content:center;
-        align-items:center;
-    }
-    #weird-img{
-        width:125px;
-        bottom:auto;
-    }
-    #TV {
-        width:300px;
-        right:0;
-        left:100px;
-        top:100px;
-        position:relative;
-        }
-    #bar-pic {
-        width:300px;
-        left:-100px;
-        right:auto;
-        position:relative;
-    }
-    #weird-img {
-        width: 125px;
-    }
-    #title {
-        font-size: 100px;
-    }
-    #democratizing-message{
-        font-size:20px;
-    }
-    #wave-thing{
-        top:220px;;
-    }
-}
-
-@media (max-width: 750px){
-    #title{
-        font-size:70px;
-    }
-    #weird-img{
-        width:70px;
-    }
-    #democratizing-message{
-        font-size: 15px;
-    }
-    .get-started{
-        padding:15px 40px;
-    }
-    #TV, #bar-pic{
-        width:250px;
-        min-width:250px;
-    }
-    #TV{
-        top:85px;
-    }
-    #get-started-1{
-        margin-top:40px;
-    }
 }
 
 .democratizing-section {
@@ -485,4 +389,118 @@ input[type=submit]:hover {
 
 .socials a {
     padding: 7%;
+}
+
+@media (max-width: 1300px){
+    #TV {
+        width:450px;
+        bottom:-50px;
+        }
+    #bar-pic {
+        width:450px;
+        right:50px;
+    }
+    #weird-img {
+        width: 125px;
+    }
+    #title {
+        font-size: 100px;
+    }
+    #democratizing-message{
+        font-size:20px;
+    }
+    #wave-thing{
+        top:350px;
+    }
+    #description{
+        margin-top:300px;
+        margin-bottom:150px;
+        font-size:20px;
+    }
+}
+
+@media (max-width: 1050px){
+    .central-text-images{
+        flex-direction:column;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top:50px;
+    }
+    .central-text{
+        flex-direction:column;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+    .central-images{
+        justify-content:center;
+        top:40px;
+    }
+    #title-weird-img{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+    #weird-img{
+        width:125px;
+        bottom:auto;
+    }
+    #TV {
+        width:300px;
+        right:0;
+        left:100px;
+        top:100px;
+        position:relative;
+        }
+    #bar-pic {
+        width:300px;
+        left:-100px;
+        right:auto;
+        position:relative;
+    }
+    #weird-img {
+        width: 125px;
+    }
+    #title {
+        font-size: 100px;
+    }
+    #democratizing-message{
+        font-size:20px;
+    }
+    #wave-thing{
+        top:300px;;
+    }
+    .get-started{
+        padding:15px 40px;
+    }
+    #description{
+        margin: 200px 250px 100px 250px;
+        font-size:18px;
+    }
+}
+
+@media (max-width: 750px){
+    #title{
+        font-size:70px;
+    }
+    #weird-img{
+        width:70px;
+    }
+    #democratizing-message{
+        font-size: 15px;
+    }
+    
+    #TV, #bar-pic{
+        width:250px;
+        min-width:250px;
+    }
+    #TV{
+        top:85px;
+    }
+    #get-started-1{
+        margin-top:40px;
+    }
+    #wave-thing{
+        top:240px;
+    }
 }
