@@ -45,12 +45,18 @@ p {
 }
 
 #weird-img {
-    width: 151px;
-    position:relative;
+    width: 170px;
+    margin-left:-15px;
+}
+
+#title {
+    font-weight: 900;
+    font-size: 130px;
+    margin: 0% 0%;
 }
 
 .central-text{
-
+    
 }
 
 .central-text-images {
@@ -65,39 +71,52 @@ p {
 }
 
 .central-images {
+    top:70px;
     display:flex;
     flex-direction:row;
     width: 100%;
     position: relative;
     justify-content:space-between;
-    height:500px
+    height:500px;
 }
 
 #TV {
-    position:relative;
-    width:500px;
+    position:absolute;
+    width:525px;
     object-fit:contain;
     overflow:hidden;
-    align-self:flex-start;
-    margin-top:auto;
+    bottom:-190px;
+    left:0px;
 }
 
 #bar-pic {
     position:absolute;
-    width:400px;
+    width:590px;
     object-fit:contain;
     overflow:hidden;
-    margin-left:200px;
     z-index:-1;
-    margin-bottom:700px;
+    right:50px;
+    top:10px;
 }
 
 #wave-thing {
     position: absolute;
     z-index: -1;
-    width: 100%;
-    top: 35vw;
-    height: 80%;
+    width: 1512px;
+    top: 530px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#wave-flex{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+#democratizing-message {
+    font-size: 25px;
+    line-height: 175%;
 }
 
 #description {
@@ -108,15 +127,24 @@ p {
     text-align: center;
 }
 
-#title {
-    font-weight: 900;
-    font-size: 120px;
-    margin: 0% 0%;
-}
-
-#democratizing-message {
-    font-size: 30px;
-    line-height: 175%;
+@media (max-width: 1300px){
+    #TV {
+        width:450px;
+        bottom:-50px;
+        }
+    #bar-pic {
+        width:450px;
+        right:50px;
+    }
+    #weird-img {
+        width: 125px;
+    }
+    #title {
+        font-size: 100px;
+    }
+    #democratizing-message{
+        font-size:20px;
+    }
 }
 
 #get-started {
