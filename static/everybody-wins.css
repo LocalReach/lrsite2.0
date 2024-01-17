@@ -1,0 +1,61 @@
+.democratizing-section {
+    position: relative;
+    font-family: 'Roboto';
+    width: 40%;
+    height: fit-content;
+   
+}
+
+.democratizing-table { 
+    background-color: #E6E6E6;
+    float: left;
+}
+
+.democratizing-table img {
+    width: 60%;
+    padding-top: 15%;
+}
+
+.democratizing-table td {
+    line-height: 175%;
+    color: #2D2D2D;
+}
+
+.outer-table {
+    border-radius: 50px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 5px 5px #8379f7;
+}
+
+.democratizing-table span {
+    color: #4C3EED;
+}
+
+.everybody-wins-section {
+    font-family: 'Roboto';
+    transform: translate(120%, -110%);
+}
+
+#everybody-wins {
+    font-size: 800%;
+    font-weight: 900;
+    margin-top: 0px;
+    margin-bottom: 18%;
+}
+
+.everybody-wins-section button {
+    font-size: 175%;
+    background-color: #4C3EED;
+    border-color: transparent;
+    border-radius: 15px;
+    color: white;
+    padding: 4% 8%;
+    margin-top: 5%;
+    transform: translateY(-90%);
+}
+
+.everybody-wins-section button:hover {
+    background-color: #8379f7;
+    cursor: pointer;
+}

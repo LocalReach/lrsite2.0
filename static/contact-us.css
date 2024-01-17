@@ -1,0 +1,94 @@
+.more-info {
+    margin-left: 5%;
+    height: 30cm;
+}
+
+#want-more-info {
+    font-weight: 900;
+    font-size: 800%;
+    margin-bottom: 2%;
+}
+
+#contact-info {
+    font-size: 250%;
+    line-height: 175%;
+}
+
+#address {
+    font-size: 250%;
+}
+
+#contact-us {
+    color: white;
+    font-family: 'Roboto';
+    font-size: 350%;
+    text-align: center;
+}
+
+.contact-form label {
+    font-weight: 500;
+    font-size: 200%;
+    color: #2D2D2D;
+}
+
+input {
+    font-size: 150%;
+}
+
+input[type=text], select, textarea {
+    font-family: 'Poppins';
+    width: 100%;
+    padding: 1%;
+    box-sizing: border-box;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    resize: vertical;
+    background-color: #D8D8D8;
+    border: none;
+    border-bottom: 3px solid #2D2D2D;
+    text-align: left;
+    resize: none;
+}  
+
+input[type=submit] {
+    font-family: 'Poppins';
+    background-color: #4C3EED;
+    color: white;
+    padding: 2% 4%;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+input[type=submit]:hover {
+    background-color: #8379f7;
+}
+  
+.contact-form {
+    border-radius: 25px;
+    background-color: #D8D8D8;
+    padding-left: 5%;
+    padding-right: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    width: 30%;
+    margin-left: auto;
+    margin-right: 3%;
+    font-family: 'Poppins';
+    box-shadow: 0 0 5px 5px rgba(128, 128, 128, 0.555);
+    transform: translateY(-70%);
+}
+
+.socials {
+    float: left;
+    width: 30vw;
+    transform: translateY(-1400%);
+}
+
+.socials a {
+    padding: 7%;
+}
