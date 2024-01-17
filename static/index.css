@@ -43,6 +43,19 @@ p {
     color: white;
     border-radius: 15px;
 }
+.get-started{
+    font-size: 20px;
+    background-color: #4C3EED;
+    border-color: transparent;
+    border-radius: 10px;
+    color: white;
+    padding: 25px 50px;;
+}
+
+.get-started:hover {
+    background-color: #8379f7;
+    cursor: pointer;
+}
 
 #weird-img {
     width: 170px;
@@ -55,16 +68,12 @@ p {
     margin: 0% 0%;
 }
 
-.central-text{
-    
-}
-
 .central-text-images {
     display: flex;
     position: relative;
     top: 0;
-    margin-top: 1%;
-    margin-left: 3%;
+    margin-top: 20px;
+    margin-left:45px;
     font-family: 'Roboto';
     width:100%;
     justify-content:space-evenly;
@@ -73,11 +82,9 @@ p {
 .central-images {
     top:70px;
     display:flex;
-    flex-direction:row;
     width: 100%;
     position: relative;
     justify-content:space-between;
-    height:500px;
 }
 
 #TV {
@@ -85,7 +92,7 @@ p {
     width:525px;
     object-fit:contain;
     overflow:hidden;
-    bottom:-190px;
+    bottom:-90px;
     left:0px;
     z-index:1;
 }
@@ -127,19 +134,8 @@ p {
     text-align: center;
 }
 
-#get-started {
-    font-size: 20px;
-    background-color: #4C3EED;
-    border-color: transparent;
-    border-radius: 10px;
-    color: white;
-    padding: 25px 50px;;
+#get-started-1 {
     margin-top: 55px;
-}
-
-#get-started:hover {
-    background-color: #8379f7;
-    cursor: pointer;
 }
 
 @media (max-width: 1300px){
@@ -165,6 +161,9 @@ p {
 @media (max-width: 1050px){
     .central-text-images{
         flex-direction:column;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top:50px;
     }
     .central-text{
         flex-direction:column;
@@ -172,13 +171,14 @@ p {
         justify-content:center;
         align-items:center;
     }
+    .central-images{
+        justify-content:center;
+        top:40px;
+    }
     #title-weird-img{
         display:flex;
         justify-content:center;
         align-items:center;
-    }
-    .central-images{
-        justify-content:center;
     }
     #weird-img{
         width:125px;
@@ -186,15 +186,16 @@ p {
     }
     #TV {
         width:300px;
-        right:auto;
-        left:auto;
-        transform:translate(-30px, -215px);
+        right:0;
+        left:100px;
+        top:100px;
+        position:relative;
         }
     #bar-pic {
         width:300px;
-        left:auto;
+        left:-100px;
         right:auto;
-        transform:translate(30px, -20px);
+        position:relative;
     }
     #weird-img {
         width: 125px;
@@ -210,12 +211,36 @@ p {
     }
 }
 
+@media (max-width: 750px){
+    #title{
+        font-size:70px;
+    }
+    #weird-img{
+        width:70px;
+    }
+    #democratizing-message{
+        font-size: 15px;
+    }
+    .get-started{
+        padding:15px 40px;
+    }
+    #TV, #bar-pic{
+        width:250px;
+        min-width:250px;
+    }
+    #TV{
+        top:85px;
+    }
+    #get-started-1{
+        margin-top:40px;
+    }
+}
+
 .democratizing-section {
     position: relative;
     font-family: 'Roboto';
     width: 40%;
     height: fit-content;
-    margin: 3%;
    
 }
 
