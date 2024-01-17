@@ -14,34 +14,50 @@ p {
 }
 
 .navigation-bar {
-    padding: 1% 0%;
-    box-sizing: border-box;
-    display: flex;
+    display:flex;
     justify-content: center;
     align-items: center;
+    gap:40px;
+    list-style:none;
+    margin-top:45px;
 }
 
-.navigation-bar a {
+.navigation-bar li{
+    text-align:center;
+}
+
+.navigation-bar li a {
     color: black;
-    float: left;
-    text-align: center;
-    padding: 1% 1%;
     text-decoration: none;
-    font-size: 150%;
+    font-size: 20px;
     font-family: 'Roboto';
-    font-weight: 400;
-    height: 37px;
+    font-weight: 300;
 }
 
 .navigation-bar a:hover {
-    color: #4C3EED;
+    color:white;
     cursor: pointer;
+}
+
+#about{
+    color: #4C3EED;
+}
+
+#contact-us-nav{
+    background-color: #4C3EED;
+    color:white;
+    border-color:transparent;
+    border-radius:10px;
+    padding:13px 30px; 
+    font-style:bold;
+    font-size: 15px;
+    font-weight:800;
+
 }
 
 #contact-us-nav:hover {
     background-color: #4C3EED;
     color: white;
-    border-radius: 15px;
 }
 .get-started{
     font-size: 20px;
