@@ -87,6 +87,7 @@ p {
     overflow:hidden;
     bottom:-190px;
     left:0px;
+    z-index:1;
 }
 
 #bar-pic {
@@ -94,7 +95,6 @@ p {
     width:590px;
     object-fit:contain;
     overflow:hidden;
-    z-index:-1;
     right:50px;
     top:10px;
 }
@@ -103,7 +103,7 @@ p {
     position: absolute;
     z-index: -1;
     width: 1512px;
-    top: 530px;
+    top: 450px;
     margin-left:auto;
     margin-right:auto;
 }
@@ -127,6 +127,21 @@ p {
     text-align: center;
 }
 
+#get-started {
+    font-size: 20px;
+    background-color: #4C3EED;
+    border-color: transparent;
+    border-radius: 10px;
+    color: white;
+    padding: 25px 50px;;
+    margin-top: 55px;
+}
+
+#get-started:hover {
+    background-color: #8379f7;
+    cursor: pointer;
+}
+
 @media (max-width: 1300px){
     #TV {
         width:450px;
@@ -147,19 +162,52 @@ p {
     }
 }
 
-#get-started {
-    font-size: 200%;
-    background-color: #4C3EED;
-    border-color: transparent;
-    border-radius: 15px;
-    color: white;
-    padding: 1.5% 3%;
-    margin-top: 5%;
-}
-
-#get-started:hover {
-    background-color: #8379f7;
-    cursor: pointer;
+@media (max-width: 1050px){
+    .central-text-images{
+        flex-direction:column;
+    }
+    .central-text{
+        flex-direction:column;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+    #title-weird-img{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+    .central-images{
+        justify-content:center;
+    }
+    #weird-img{
+        width:125px;
+        bottom:auto;
+    }
+    #TV {
+        width:300px;
+        right:auto;
+        left:auto;
+        transform:translate(-30px, -215px);
+        }
+    #bar-pic {
+        width:300px;
+        left:auto;
+        right:auto;
+        transform:translate(30px, -20px);
+    }
+    #weird-img {
+        width: 125px;
+    }
+    #title {
+        font-size: 100px;
+    }
+    #democratizing-message{
+        font-size:20px;
+    }
+    #wave-thing{
+        top:220px;;
+    }
 }
 
 .democratizing-section {
@@ -167,7 +215,6 @@ p {
     font-family: 'Roboto';
     width: 40%;
     height: fit-content;
-    /* height: 18cm; */
     margin: 3%;
    
 }
@@ -398,9 +445,3 @@ input[type=submit]:hover {
 .socials a {
     padding: 7%;
 }
-
-@media (max-width: 1150px){
-
-}
-
-
