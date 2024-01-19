@@ -34,7 +34,7 @@ p {
     font-weight: 300;
 }
 
-.navigation-bar a:hover {
+.navigation-bar a:hover, #about:hover {
     color:white;
     cursor: pointer;
 }
@@ -56,8 +56,8 @@ p {
 }
 
 #contact-us-nav:hover {
-    background-color: #4C3EED;
-    color: white;
+    background-color: white;
+    color: #4C3EED;
 }
 .get-started{
     font-size: 20px;
