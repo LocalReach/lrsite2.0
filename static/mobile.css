@@ -66,7 +66,8 @@
     #description{
         transform:translate(0, 0);
         display:flex;
-        margin-bottom:60px;
+        margin-top:30px;
+        margin-bottom:30px;
         justify-content: center;
         align-items:center;
         text-align:justify;
@@ -80,22 +81,77 @@
     /* How It Works Section */
 
     #democratizing-section{
-        grid-template-rows:2fr 4fr 1fr;
+        grid-template-rows:1fr 3fr 0.75fr;
         transform:translate(0, 0);
     }
 
     #outer-table{
+        grid-column: 1 / 3;
         grid-row: 2 / 3;
         transform:translate(0, 0);
+        padding-right:0;
+        justify-self:center;
+        align-self:center;
+        border-radius:20px;
+        width:330px;
+        height:350;
     }
 
-    #everybody-wins-section{
+    #new-table{
+        width:100%;
+        row-gap:5px;
+        column-gap:10px;
+    }
+
+    #new-table img{
+        width:30px;
+    }
+
+    .how-blurbs h2{
+        font-size:17px;
+        margin-bottom:10px;
+    }
+
+    .how-blurbs p{
+        font-size:12px;
+        line-height:17px;
+    }
+
+    #everybody-wins {
         grid-row: 1 / 2;
+        grid-column:1 / 3;
         transform:translate(0, 0);
         width:auto;
+        align-self:end;
+        justify-self:center;
+        font-size:50px;
     }
 
-    #everybody-wins-section button{
+    #democratizing-section button{
+        margin-top:10px !important;
         grid-row: 3 / 4;
+        grid-column: 1 / 3;
+        transform:translate(0, 0);
+        align-self:start;
+        justify-self:center;
     }
+
+    #top-img{
+        transform:translateY(20%);
+    }
+    
+    #middle-img{
+        transform: translateY(0%);;
+    }
+    
+    #bottom-img{
+        transform:translateY(-20%);
+    }
+    #top-blurb{
+        margin-top:11px;
+    }
+    #bottom-blurb{
+        margin-bottom:11px;
+    }
+    
 }
