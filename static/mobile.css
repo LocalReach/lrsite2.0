@@ -46,8 +46,8 @@
     }
 
     #wave-thing{
-        width:700px;
-        top:110px;
+        width:800px;
+        top:120px;
     }
 
     #weird-img{
@@ -80,7 +80,6 @@
     /* How It Works Section */
 
     #democratizing-section{
-        display:grid;
         grid-template-rows:2fr 4fr 1fr;
         transform:translate(0, 0);
     }
