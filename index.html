@@ -9,6 +9,7 @@
             @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@300;400;500;900&display=swap');
         </style>
         <link rel="stylesheet" href="/static/index.css"/>
+        <link rel="stylesheet" href="/static/mobile.css"/>
     </head>
     <body>
         <div class="navigation-bar">
@@ -22,23 +23,28 @@
 
         <img id="wave-thing" src="/static/images/wavy_thing.png"/>
 
-        <div class="central-text">
-            <img id="weird-img" src="/static/images/fad_modrandom.png"/>
+        <div id="central-text-images">
+            <div id="central-text">
+                <div id="logo-title">
+                <img id="weird-img" src="/static/images/fad_modrandom.png"/>
 
-            <p id="title"><span style="color: #4c3eed">Local</span>Reach.</p>
-            <p id="democratizing-message">
-                Democratizing TV Advertising, Challenging<br>
-                Corporate Dominance. <span style="color: #4c3eed">Empower</span> your reach.
-            </p>
+                <p id="title"><span style="color: #4c3eed">Local</span>Reach.</p>
+                </div>
+                <p id="democratizing-message">
+                    Democratizing TV Advertising, Challenging<br>
+                    Corporate Dominance. <span style="color: #4c3eed">Empower</span> your reach.
+                </p>
 
-            <button id="get-started" type="button"><b>GET STARTED</b></button>
+                <button class="get-started" type="button"><b>GET STARTED</b></button>
+            </div>
 
-            <div class="central-images">
+            <div id="central-images">
                 <img id="TV" src="/static/images/TV.png"/>
                 <img id="bar-pic" src="/static/images/Empower Your Reach.png"/>
             </div>
-
-            <p id="description">
+        </div>
+        <div id="description">
+            <p>
                 Local Reach is a revolutionary advertising platform, by
                 harnessing the power of our AI targeting system, we<br>
                 ensure that your ads are seen by the right people, in the right
@@ -47,81 +53,56 @@
                 businesses, big or small.
             </p>
         </div>
-
-       
-            <div class="democratizing-section">
-                <div class="outer-table" style="background-color: #e6e6e6">
-                    <table class="democratizing-table">
+            <div id="democratizing-section">
+                <div id="outer-table" style="background-color: #e6e6e6">
+                    <table id="democratizing-table">
                         <tr>
-                            <td
-                                style="
-                                    width: 30%;
-                                    padding-left: 10%;
-                                    padding-top: 5%;
-                                ">
+                            <td class="left-table"
+                                class="table-space-top">
                                 <img src="/static/images/TV Icon.png"/>
                             </td>
-                            <td
-                                style="
-                                    font-size: 3vw;
-                                    font-weight: 500;
-                                    width: 90%;
-                                    padding-top: 5%;
-                                ">
+                            <td class="table-title"
+                                class="table-space-top">
                                 Democratizing TV
                             </td>
                         </tr>
                         <tr>
-                            <td style="width: 30%; padding-left: 10%"></td>
-                            <td style="font-size: 1.5vw">
+                            <td class="left-table"></td>
+                            <td>
                                 Democratizing TV Advertising, Challenging<br>
                                 Corporate Dominance. <span>Empower</span> your
                                 reach.
                             </td>
                         </tr>
                         <tr>
-                            <td style="width: 30%; padding-left: 10%">
+                            <td class="left-table">
                                 <img src="/static/images/TV Icon.png"/>
                             </td>
-                            <td
-                                style="
-                                    font-size: 3vw;
-                                    font-weight: 500;
-                                    width: 90%;
-                                ">
+                            <td class="table-title">
                                 Democratizing TV
                             </td>
                         </tr>
                         <tr>
-                            <td style="width: 30%; padding-left: 10%"></td>
-                            <td style="font-size: 1.5vw">
+                            <td class="left-table"></td>
+                            <td>
                                 Democratizing TV Advertising, Challenging<br>
                                 Corporate Dominance. <span>Empower</span> your
                                 reach.
                             </td>
                         </tr>
                         <tr>
-                            <td style="width: 30%; padding-left: 10%">
+                            <td class="left-table">
                                 <img src="/static/images/TV Icon.png"/>
                             </td>
-                            <td
-                                style="
-                                    font-size: 3vw;
-                                    font-weight: 500;
-                                    width: 90%;
-                                ">
+                            <td class="table-title">
                                 Democratizing TV
                             </td>
                         </tr>
                         <tr>
-                            <td
-                                style="
-                                    width: 30%;
-                                    padding-left: 10%;
-                                    padding-bottom: 5%;
-                                ">
+                            <td class="left-table"
+                            class="table-space-bottom">
                             </td>
-                            <td style="font-size: 1.5vw; padding-bottom: 5%">
+                            <td class="table-space-bottom">
                                 Democratizing TV Advertising, Challenging<br>
                                 Corporate Dominance. <span>Empower</span> your
                                 reach.
@@ -130,14 +111,13 @@
                     </table>
                 </div>
 
-                <div class="everybody-wins-section">
+                <div id="everybody-wins-section">
                     <p id="everybody-wins">
                         Everybody<br><span style="color: #4c3eed">Wins!</span>
                         <img src="/static/images/Arrow.png" style="width: 18%"/>
                     </p>
-
-                    <button type="button"><b>GET STARTED</b></button>
                 </div>
+                <button class="get-started" type="button"><b>GET STARTED</b></button>
             </div>
         
         </div>
