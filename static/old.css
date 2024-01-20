@@ -1,0 +1,37 @@
+td{
+    font-size:1.5vw;
+}
+
+#democratizing-table { 
+    background-color: #E6E6E6;
+    float: left;
+}
+
+.table-title{
+    font-size: 3vw;
+    font-weight: 500;
+    width: 90%;
+}
+
+.left-table{
+    width: 30%;
+    padding-left: 10%
+}
+
+.table-space-top{
+    padding-top:5%;
+}
+
+.table-space-bottom{
+    padding-bottom:5%;
+}
+
+.democratizing-table img {
+    width: 60%;
+    padding-top: 15%;
+}
+
+.democratizing-table td {
+    line-height: 175%;
+    color: #2D2D2D;
+}

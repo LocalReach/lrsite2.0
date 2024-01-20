@@ -8,37 +8,64 @@
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@300;400;500;900&display=swap');
         </style>
+
+        <script>
+            function show_dropdown() {
+                document.getElementById("dropdown-content").style.display = "block";
+            }
+        </script>
+
         <link rel="stylesheet" href="/static/index.css"/>
+        <link rel="stylesheet" href="/static/mobile.css"/>
     </head>
     <body>
-        <div class="navigation-bar">
-            <a href="#how-it-works">How It Works</a>
-            <a href="#about">About</a>
-            <a href="#work">Work</a>
-            <a href="#pricing">Pricing</a>
-            <a href="#blog">Blog</a>
-            <a id="contact-us-nav" href="#contact"><b>CONTACT US</b></a>
+        <div class="navbar">
+            <div class="desktop-navigation-bar">
+                <a href="#how-it-works">How It Works</a>
+                <a href="#about">About</a>
+                <a href="#work">Work</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#blog">Blog</a>
+                <a id="contact-us-nav" href="#contact"><b>CONTACT US</b></a>
+            </div>
+
+            <div class="dropdown-navbar">
+                <button id="dropbtn" onclick="show_dropdown()">Select Page &#9662</button>
+                <div id="dropdown-content">
+                    <a href="#how-it-works">How It Works</a>
+                    <a href="#about">About</a>
+                    <a href="#work">Work</a>
+                    <a href="#pricing">Pricing</a>
+                    <a href="#blog">Blog</a>
+                    <a href="#contact">Contact Us</a>
+                </div>
+            </div>
         </div>
 
         <img id="wave-thing" src="/static/images/wavy_thing.png"/>
 
-        <div class="central-text">
-            <img id="weird-img" src="/static/images/fad_modrandom.png"/>
+        <div id="central-text-images">
+            <div id="central-text">
+                <div id="logo-title">
+                <img id="weird-img" src="/static/images/fad_modrandom.png"/>
 
-            <p id="title"><span style="color: #4c3eed">Local</span>Reach.</p>
-            <p id="democratizing-message">
-                Democratizing TV Advertising, Challenging<br>
-                Corporate Dominance. <span style="color: #4c3eed">Empower</span> your reach.
-            </p>
+                <p id="title"><span style="color: #4c3eed">Local</span>Reach.</p>
+                </div>
+                <p id="democratizing-message">
+                    Democratizing TV Advertising, Challenging<br>
+                    Corporate Dominance. <span style="color: #4c3eed">Empower</span> your reach.
+                </p>
 
-            <button id="get-started" type="button"><b>GET STARTED</b></button>
+                <button class="get-started" type="button"><b>GET STARTED</b></button>
+            </div>
 
-            <div class="central-images">
+            <div id="central-images">
                 <img id="TV" src="/static/images/TV.png"/>
                 <img id="bar-pic" src="/static/images/Empower Your Reach.png"/>
             </div>
-
-            <p id="description">
+        </div>
+        <div id="description">
+            <p>
                 Local Reach is a revolutionary advertising platform, by
                 harnessing the power of our AI targeting system, we<br>
                 ensure that your ads are seen by the right people, in the right
@@ -47,103 +74,86 @@
                 businesses, big or small.
             </p>
         </div>
-
-       
-            <div class="democratizing-section">
-                <div class="outer-table" style="background-color: #e6e6e6">
-                    <table class="democratizing-table">
-                        <tr>
-                            <td
-                                style="
-                                    width: 30%;
-                                    padding-left: 10%;
-                                    padding-top: 5%;
-                                ">
-                                <img src="/static/images/TV Icon.png"/>
-                            </td>
-                            <td
-                                style="
-                                    font-size: 3vw;
-                                    font-weight: 500;
-                                    width: 90%;
-                                    padding-top: 5%;
-                                ">
-                                Democratizing TV
-                            </td>
-                        </tr>
-                        <tr>
-                            <td style="width: 30%; padding-left: 10%"></td>
-                            <td style="font-size: 1.5vw">
+            <div id="democratizing-section">
+                <div id="outer-table" style="background-color: #e6e6e6">
+                    <div id="new-table">
+                        <div style="
+                            background-color:#4C3EED;
+                            grid-column: 1 / 2;
+                            grid-row: 1 / 4;
+                            "></div>
+                        <img style="
+                        grid-row: 1 / 2;
+                        grid-column: 2 / 3;
+                        " 
+                        id="top-img"src="/static/images/TV Icon.png"/>
+                        <img style="
+                        grid-row: 2 / 3;
+                        grid-column: 2 / 3;
+                        "
+                        id="middle-img"
+                        src="/static/images/TV Icon.png"/>
+                        <img style="
+                        grid-row: 3 / 4;
+                        grid-column: 2 / 3;
+                        " 
+                        id="bottom-img" src="/static/images/TV Icon.png"/>
+                        <div style="
+                        grid-column: 3 / 4;
+                        grid-row: 1 / 2;
+                        align-self:end;
+                        " class="how-blurbs"
+                        id="top-blurb">
+                            <h2>Democratizing TV
+                            </h2>
+                            <p > 
                                 Democratizing TV Advertising, Challenging<br>
                                 Corporate Dominance. <span>Empower</span> your
                                 reach.
-                            </td>
-                        </tr>
-                        <tr>
-                            <td style="width: 30%; padding-left: 10%">
-                                <img src="/static/images/TV Icon.png"/>
-                            </td>
-                            <td
-                                style="
-                                    font-size: 3vw;
-                                    font-weight: 500;
-                                    width: 90%;
-                                ">
+                            </p>
+                        </div>
+                        <div style="
+                        grid-column: 3 / 4;
+                        grid-row: 2 / 3;
+                        align-self:center;
+                        " class="how-blurbs">
+                            <h2>
                                 Democratizing TV
-                            </td>
-                        </tr>
-                        <tr>
-                            <td style="width: 30%; padding-left: 10%"></td>
-                            <td style="font-size: 1.5vw">
+                            </h2>
+                            <p> 
                                 Democratizing TV Advertising, Challenging<br>
                                 Corporate Dominance. <span>Empower</span> your
                                 reach.
-                            </td>
-                        </tr>
-                        <tr>
-                            <td style="width: 30%; padding-left: 10%">
-                                <img src="/static/images/TV Icon.png"/>
-                            </td>
-                            <td
-                                style="
-                                    font-size: 3vw;
-                                    font-weight: 500;
-                                    width: 90%;
-                                ">
+                            </p>
+                        </div>
+                        <div style="
+                        grid-column: 3 / 4;
+                        grid-row: 3 / 4;
+                        align-self:start;
+                        " class="how-blurbs"
+                        id="bottom-blurb">
+                            <h2>
                                 Democratizing TV
-                            </td>
-                        </tr>
-                        <tr>
-                            <td
-                                style="
-                                    width: 30%;
-                                    padding-left: 10%;
-                                    padding-bottom: 5%;
-                                ">
-                            </td>
-                            <td style="font-size: 1.5vw; padding-bottom: 5%">
+                            </h2>
+                            <p> 
                                 Democratizing TV Advertising, Challenging<br>
                                 Corporate Dominance. <span>Empower</span> your
                                 reach.
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-
-                <div class="everybody-wins-section">
+                            </p>
+                        </div>
+                    </div>
+                </div>     
                     <p id="everybody-wins">
-                        Everybody<br><span style="color: #4c3eed">Wins!</span>
-                        <img src="/static/images/Arrow.png" style="width: 18%"/>
+                        Everybody<br>
+                            <span style="color: #4c3eed">Wins!</span>
+                            <img src="/static/images/Arrow.png" style="width: 18%"/>
                     </p>
-
-                    <button type="button"><b>GET STARTED</b></button>
-                </div>
+                <button class="get-started" type="button"><b>GET STARTED</b></button>
             </div>
         
         </div>
 
         <div id="how-it-works" class="maximization-section">
-            <img id="bar-watching-tv" src="/static/images/Bar Watching TV.png">
             <p id="maximization-title"><span id="minimize-your-costs"><mark style="background-color: #D1CEFB">&nbspMinimize Your Costs&nbsp</mark></span><br>
                 <span id="maximize-your-impact">Maximize<br>
                     Your Impact.</span></p>
@@ -154,8 +164,10 @@
                 Local Reach, your restaurant becomes part of a<br>
                 supportive local business network, enhancing your<br>
                 community connection and reputation.</p>
-
-            <img id="morph-lines" src="/static/images/3D Morph Lines.png">
+            <div id="maximize-images">
+                <img id="bar-watching-tv" src="/static/images/Bar Watching TV.png">
+                <img id="morph-lines" src="/static/images/3D Morph Lines.png">
+            </div>
             
             
         </div>
@@ -241,15 +253,11 @@
                     <input type="text" id="phone-number" name="phone-number" placeholder="">
                 
                     <label for="message">Message</label>
-                    <textarea id="message" name="message" placeholder="Write your Message..." style="height:200px; font-size: 150%;"></textarea>
+                    <textarea id="message" name="message" placeholder="Write your Message..." style="height: 10vw; font-size: 1.5vw;"></textarea>
                 
                     <input type="submit" value="Send Message">
                 </form>
             </div>
-        </div>
-
-        <div>
-            <p style="text-align: center;">LocalReach Website &copy;</p>
         </div>
     </body>
 </html>
