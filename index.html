@@ -8,17 +8,38 @@
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@300;400;500;900&display=swap');
         </style>
+
+        <script>
+            function show_dropdown() {
+                document.getElementById("dropdown-content").style.display = "block";
+            }
+        </script>
+
         <link rel="stylesheet" href="/static/index.css"/>
         <link rel="stylesheet" href="/static/mobile.css"/>
     </head>
     <body>
-        <div class="navigation-bar">
-            <a href="#how-it-works">How It Works</a>
-            <a href="#about">About</a>
-            <a href="#work">Work</a>
-            <a href="#pricing">Pricing</a>
-            <a href="#blog">Blog</a>
-            <a id="contact-us-nav" href="#contact"><b>CONTACT US</b></a>
+        <div class="navbar">
+            <div class="desktop-navigation-bar">
+                <a href="#how-it-works">How It Works</a>
+                <a href="#about">About</a>
+                <a href="#work">Work</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#blog">Blog</a>
+                <a id="contact-us-nav" href="#contact"><b>CONTACT US</b></a>
+            </div>
+
+            <div class="dropdown-navbar">
+                <button id="dropbtn" onclick="show_dropdown()">Select Page &#9662</button>
+                <div id="dropdown-content">
+                    <a href="#how-it-works">How It Works</a>
+                    <a href="#about">About</a>
+                    <a href="#work">Work</a>
+                    <a href="#pricing">Pricing</a>
+                    <a href="#blog">Blog</a>
+                    <a href="#contact">Contact Us</a>
+                </div>
+            </div>
         </div>
 
         <img id="wave-thing" src="/static/images/wavy_thing.png"/>
@@ -232,15 +253,11 @@
                     <input type="text" id="phone-number" name="phone-number" placeholder="">
                 
                     <label for="message">Message</label>
-                    <textarea id="message" name="message" placeholder="Write your Message..." style="height:200px; font-size: 150%;"></textarea>
+                    <textarea id="message" name="message" placeholder="Write your Message..." style="height: 10vw; font-size: 1.5vw;"></textarea>
                 
                     <input type="submit" value="Send Message">
                 </form>
             </div>
-        </div>
-
-        <div>
-            <p style="text-align: center;">LocalReach Website &copy;</p>
         </div>
     </body>
 </html>

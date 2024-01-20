@@ -1,3 +1,86 @@
+@media (max-width: 940px){
+    /* Contact Section */
+    .contact { 
+        height: fit-content;
+    }
+
+    .contact-form {
+        margin-left: auto;
+        margin-right: auto;
+        grid-row: 5 / 6;
+        width: 50%;
+        transform: translateY(0%);
+    }
+
+    .socials {
+        float: none;
+        margin: auto;
+        width: 29vw;
+    }
+
+    .socials img {
+        width: 5vw;
+    }
+
+    #address, #contact-info, #want-more-info {
+        text-align: center;
+    }
+}
+
+@media (max-width: 780px){
+    .desktop-navigation-bar {
+        display: none
+    }
+
+    .dropdown-navbar {
+        display: flex;
+        overflow: hidden;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #dropbtn {
+        font-size: 2vw;
+        background-color: #4C3EED;
+        border-color: transparent;
+        border-radius: 10px;
+        color: white;
+        padding: 1.5vw 3vw;
+        margin-top: 2%;
+    }
+    
+    #dropbtn:hover {
+        background-color: #8379f7;
+        cursor: pointer;
+    }
+    
+    #dropdown-content {
+        display: none;
+        top: 15%;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        border-radius: 12px;
+    }
+    
+    #dropdown-content a {
+        font-family: 'Roboto';
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+    
+    #dropdown-content a:hover {
+        background-color: #ddd;
+    }
+}
+
 @media (max-width: 750px){
     /* Landing Page Section */
     #central-text-images{

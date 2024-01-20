@@ -13,7 +13,7 @@ p {
     font-family: 'Roboto';
 }
 
-.navigation-bar {
+.desktop-navigation-bar {
     padding: 1% 0%;
     box-sizing: border-box;
     display: flex;
@@ -21,21 +21,25 @@ p {
     align-items: center;
 }
 
-.navigation-bar a {
+.desktop-navigation-bar a {
     color: black;
     float: left;
     text-align: center;
     padding: 1% 1%;
     text-decoration: none;
-    font-size: 1.25vw;
+    font-size: 150%;
     font-family: 'Roboto';
     font-weight: 400;
     height: 1.5vw;
 }
 
-.navigation-bar a:hover {
+.desktop-navigation-bar a:hover {
     color: #4C3EED;
     cursor: pointer;
+}
+
+.dropdown-navbar {
+    display: none;
 }
 
 #contact-us-nav:hover {
@@ -348,14 +352,19 @@ p {
     text-align: center;
 }
 
+.contact {
+    height: fit-content;
+}
+
 .contact-form label {
     font-weight: 500;
     font-size: 2vw;
     color: #2D2D2D;
+    float: left;
 }
 
 input {
-    font-size: 150%;
+    font-size: 2vw;
 }
 
 input[type=text], select, textarea {
@@ -368,7 +377,7 @@ input[type=text], select, textarea {
     resize: vertical;
     background-color: #D8D8D8;
     border: none;
-    border-bottom: 3px solid #2D2D2D;
+    border-bottom: 2px solid #2D2D2D;
     text-align: left;
     resize: none;
 }  
@@ -385,6 +394,7 @@ input[type=submit] {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 100%;
 }
   
 input[type=submit]:hover {
@@ -418,8 +428,4 @@ input[type=submit]:hover {
 
 .socials a:hover {
     cursor: pointer;
-}
-
-@media only screen and (max-width: 945px) {
-
 }
