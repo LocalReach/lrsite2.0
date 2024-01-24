@@ -246,17 +246,39 @@
     }
 
     #maximization-paragraph{
-        /* top:40px; */
+        margin-top:60px;
         position:relative;
+        font-size:12px;
+        margin-bottom:50px;
     }
     
     #bar-watching-tv{
-        width:150px;
+        margin-top:30px;
+        width:250px;
     }
+    #morph-lines{
+        width:650px;
+        transform:translate(15px, 40px);
+    }
+
+    #maximization-title{
+        margin-top:30px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+    }
+
     #maximize-your-impact{
         font-size:55px;
+        margin:0;
+        text-align:center;
     }
-    #minimize-your-costs{
 
+    #minimize-your-costs{
+        margin:0;
+    }
+    #myc-mark{
+        font-size:30px;
     }
 }

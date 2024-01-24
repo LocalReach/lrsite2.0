@@ -232,7 +232,6 @@ p {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     margin-left: 0;
-    height: 55vw;
     font-family: 'Roboto';
     background-color: #4C3EED;
     overflow:hidden;
