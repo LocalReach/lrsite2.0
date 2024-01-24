@@ -236,5 +236,27 @@
     #bottom-blurb{
         margin-bottom:11px;
     }
+
+    .maximization-section{
+        display:flex;
+        flex-direction:column;
+        height:auto;
+        align-items:center;
+        overflow:none;
+    }
+
+    #maximization-paragraph{
+        /* top:40px; */
+        position:relative;
+    }
     
+    #bar-watching-tv{
+        width:150px;
+    }
+    #maximize-your-impact{
+        font-size:55px;
+    }
+    #minimize-your-costs{
+
+    }
 }
