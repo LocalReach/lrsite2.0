@@ -13,6 +13,8 @@ p {
     font-family: 'Roboto';
 }
 
+/* Nav Bar Section */
+
 .desktop-navigation-bar {
     padding: 1% 0%;
     box-sizing: border-box;
@@ -47,6 +49,8 @@ p {
     color: white;
     border-radius: 15px;
 }
+
+/* Landing Page Section */
 
 #central-text-images {
     position: relative;
@@ -116,6 +120,8 @@ p {
     margin-top:25vw;
     margin-bottom:12vw;
 }
+
+/* Everybody Wins Section */
 
 #democratizing-section {
     column-gap:5vw;
@@ -227,6 +233,8 @@ p {
     cursor: pointer;
 }
 
+/* Maximization Section */
+
 .maximization-section {
     display:grid;
     grid-template-columns: 1fr 1fr;
@@ -255,6 +263,15 @@ p {
     grid-row: 1 / 2;
     padding-left: 5%;
     padding-top: 7%;
+}
+
+#maximization-title h2{
+    margin:0;
+}
+
+#maximization-title h3{
+    margin-top:5vw;
+    margin-bottom:2vw;
 }
 
 #maximization-paragraph {
@@ -291,39 +308,73 @@ p {
     justify-self:end;
 }
 
-.about-us {
-    text-align: center;
+/* About Us Section */    
+#about{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+#about-us-table{
+    font-family:'Roboto';
+    display:flex;
+    justify-content:center;
+    gap:7vw;
+}
+
+.table-col{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-top:4vw;
+}
+
+.table-col img{
+    width:12vw;
+}
+
+.table-col h3{
+    margin:0;
+    font-size:1.6vw;
+    font-weight:500;
+}
+
+.table-col h4{
+    margin:0;
+    font-size:1.5vw;
+    font-weight:300;
+    font-style:italic;
+}
+
+.table-col p{
+    font-size:1.5vw;
+    font-weight:375;
+    text-align:center;
+}
+
+.student-lb{
+    margin-top:2vw;
+    margin-bottom:2vw;
+}
+
+.school-lb{
+    margin:0;
 }
 
 #about-us-title {
-    font-weight: 900;
-    font-size: 8vw;
-    margin-bottom: 5%;
+    margin-top:11vw;
+    font-weight: 600;
+    font-size: 7vw;
+    margin-bottom: 4vw;
 }
 
 #about-us-msg {
     font-size: 1.6vw;
+    font-weight:375;
     line-height: 150%;
 }
 
-.about-us-table {
-    font-family: 'Roboto';
-    font-size: 1.5vw;
-    width: 65%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 10%;
-}
-
-.about-us-table img {
-    width: 12vw;
-}
-
-.about-us-table td {
-    padding-left: 2%;
-    padding-right: 2%;
-    padding-bottom: 2%;
-}
+/* Contact Us Section */
 
 .more-info {
     margin-left: 5%;
