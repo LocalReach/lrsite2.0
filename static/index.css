@@ -308,7 +308,8 @@ p {
     justify-self:end;
 }
 
-/* About Us Section */    
+/* About Us Section */
+    
 #about{
     display:flex;
     flex-direction:column;
