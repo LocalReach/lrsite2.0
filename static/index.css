@@ -15,39 +15,55 @@ p {
 
 /* Nav Bar Section */
 
-.desktop-navigation-bar {
-    padding: 1% 0%;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#navbar{
+    margin-top:0.75vw;
+    display:flex;
+    align-content:center;
+    justify-content:center;
 }
 
-.desktop-navigation-bar a {
-    color: black;
-    float: left;
-    text-align: center;
-    padding: 1% 1%;
-    text-decoration: none;
-    font-size: 150%;
-    font-family: 'Roboto';
-    font-weight: 400;
-    height: 1.5vw;
+#navbar-list{
+    list-style-type:none;
+    display:flex;
+    justify-content:space-between;
+    font-family:'Roboto';
+    gap:2.25vw;
 }
 
-.desktop-navigation-bar a:hover {
-    color: #4C3EED;
-    cursor: pointer;
+#navbar-list li{
+    font-size:1.6vw;
+    font-weight:375;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+#navbar-list li a{
+    text-decoration:none;
+    color:black;
+}
+
+#navbar-list li a:hover{
+    color:white !important;
+    cursor:pointer;
+}
+
+#contact-btn-nav{
+    font-size:1.4vw;
+    font-weight:600;
+    background-color:#4C3EED;
+    color:white;
+    border-color:transparent;
+    border-radius:10px;
+    padding:0.75vw 1.5vw;
+}
+
+#contact-btn-nav:hover{
+    background-color:#8379f7
 }
 
 .dropdown-navbar {
     display: none;
-}
-
-#contact-us-nav:hover {
-    background-color: #4C3EED;
-    color: white;
-    border-radius: 15px;
 }
 
 /* Landing Page Section */
@@ -85,7 +101,7 @@ p {
     margin-top: 5%;
 }
 
-#get-started:hover {
+.get-started:hover {
     background-color: #8379f7;
     cursor: pointer;
 }
@@ -113,12 +129,16 @@ p {
 }
 
 #description {
+    width:80%;
     color: #2D2D2D;
     font-size: 1.5vw;
     line-height: 175%;
-    text-align: center;
+    text-align: justify;
     margin-top:25vw;
     margin-bottom:12vw;
+    display:flex;
+    justify-content:center;
+    align-content:center;
 }
 
 /* Everybody Wins Section */
@@ -404,8 +424,9 @@ p {
     text-align: center;
 }
 
-.contact {
+#contact{
     height: fit-content;
+    font-family:'Roboto';
 }
 
 .contact-form label {
@@ -471,6 +492,8 @@ input[type=submit]:hover {
 .socials {
     float: left;
     width: 30vw;
+    display:flex;
+    justify-content:space-between;
 }
 
 .socials img {

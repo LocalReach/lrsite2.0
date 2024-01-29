@@ -8,29 +8,44 @@
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@300;400;500;900&display=swap');
         </style>
-
-        <script>
-            function show_dropdown() {
-                document.getElementById("dropdown-content").style.display = "block";
-            }
-        </script>
+        <script src="/static/index.js"></script>
 
         <link rel="stylesheet" href="/static/index.css"/>
         <link rel="stylesheet" href="/static/mobile.css"/>
     </head>
     <body>
-        <div class="navbar">
-            <div class="desktop-navigation-bar">
+        <div id="navbar">
+            <ul id="navbar-list">
+                <li>
+                    <a href="#how-it-works">How It Works</a>
+                </li>
+                <li>
+                    <a href="#about" style="color:#8379f7;">About</a>
+                </li>
+                <li>
+                    <a href="#work">Work</a>
+                </li>
+                <li>
+                    <a href="#pricing">Pricing</a>
+                </li>
+                <li>
+                    <a href="#blog">Blog</a>
+                </li>
+                <li>
+                    <button id="contact-btn-nav">CONTACT US</button>
+                </li>
+            </ul>
+            <!-- <div class="desktop-navigation-bar">
                 <a href="#how-it-works">How It Works</a>
                 <a href="#about">About</a>
                 <a href="#work">Work</a>
                 <a href="#pricing">Pricing</a>
                 <a href="#blog">Blog</a>
                 <a id="contact-us-nav" href="#contact"><b>CONTACT US</b></a>
-            </div>
+            </div> -->
 
             <div class="dropdown-navbar">
-                <button id="dropbtn" onclick="show_dropdown()">Select Page &#9662</button>
+                <button id="dropbtn" onclick="showDropdown()">Select Page &#9662</button>
                 <div id="dropdown-content">
                     <a href="#how-it-works">How It Works</a>
                     <a href="#about">About</a>
@@ -199,7 +214,7 @@
                     <p class="school-lb">Queen's University</p>
                 </div>
                 <div class="table-col">
-                    <img src="/static/images/Hussein.png">
+                    <img src="/static/images/hussein-headshot.png">
                     <h3>Hussein Al-Tahhan</h3>
                     <h4>Chief Information Officer</h4>
                     <p class="student-lb">Automation Engineering
@@ -211,17 +226,12 @@
         </div>
 
         <div id="contact" class="more-info">
-            <p id="want-more-info" style="color:#2D2D2D;">Want More<br>
+            <h3 id="want-more-info" style="color:#2D2D2D;">Want More<br>
                 <span style="color:#4C3EED;">Information?</span>
-            </p>
+            </h3>
             <p id="contact-info">
                 <b>+1 012 345 6789</b><br>
                 demo@gmail.com
-            </p>
-            <p id="address" style="line-height: 100%;">
-                132 Dartmouth Street Boston,<br>
-                Massachusetts 02156 United<br>
-                States
             </p>
 
             <div class="socials">
@@ -246,9 +256,9 @@
                     <input type="text" id="phone-number" name="phone-number" placeholder="">
                 
                     <label for="message">Message</label>
-                    <textarea id="message" name="message" placeholder="Write your Message..." style="height: 10vw; font-size: 1.5vw;"></textarea>
+                    <textarea id="message" name="message" placeholder="Write your Message..."></textarea>
                 
-                    <input type="submit" value="Send Message">
+                    <input id="submit-button"type="submit" value="Send Message">
                 </form>
             </div>
         </div>
