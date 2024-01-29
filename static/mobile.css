@@ -174,8 +174,11 @@
     /* How It Works Section */
 
     #democratizing-section{
+        margin-top:60px;
         grid-template-rows:1fr 3fr 0.75fr;
         transform:translate(0, 0);
+        gap:50px;
+        margin-bottom:80px;
     }
 
     #outer-table{
@@ -260,7 +263,8 @@
     #maximization-paragraph{
         margin-top:60px;
         position:relative;
-        font-size:12px;
+        font-size:15px;
+        font-weight:375;
         margin-bottom:50px;
     }
     
@@ -274,7 +278,7 @@
     }
 
     #maximization-title{
-        margin-top:30px;
+        margin-top:0px;
         display:flex;
         flex-direction:column;
         align-items:center;
@@ -336,9 +340,9 @@
     }
     
     #about-us-msg {
-        font-size: 14px;
+        font-size: 15px;
         text-align:justify;
-        width:360px;
+        width:330px;
         line-height: 20px;
         margin-top:0;
     }
