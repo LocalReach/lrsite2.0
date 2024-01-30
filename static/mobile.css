@@ -234,21 +234,13 @@
     }
 
     #top-img{
-        transform:translateY(20%);
+        transform:translateY(42px);
     }
-    
     #middle-img{
-        transform: translateY(0%);;
-    }
-    
+        transform:translateY(18px)
+;    }
     #bottom-img{
-        transform:translateY(-20%);
-    }
-    #top-blurb{
-        margin-top:11px;
-    }
-    #bottom-blurb{
-        margin-bottom:11px;
+        transform:translateY(-7px);
     }
 
     /* Maximization Section */

@@ -129,7 +129,6 @@ p {
 }
 
 #description {
-    width:80%;
     color: #2D2D2D;
     font-size: 1.5vw;
     line-height: 175%;
@@ -138,7 +137,11 @@ p {
     margin-bottom:12vw;
     display:flex;
     justify-content:center;
-    align-content:center;
+    align-items:center;
+}
+
+#description p{
+    width:80%
 }
 
 /* Everybody Wins Section */
@@ -389,10 +392,17 @@ p {
     margin-bottom: 4vw;
 }
 
+#about-us-msg-box{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
 #about-us-msg {
     font-size: 1.6vw;
     font-weight:375;
     line-height: 150%;
+    width:80%;
 }
 
 /* Contact Us Section */
